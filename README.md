@@ -7,16 +7,14 @@ The data you see here is hardcoded in the file and will restart if you re-run th
 
 Please take notes : This app runs using Bahasa Indonesia and English as interface language.
 
-Introduction to the App
-Selamat Datang - Ini adalah Capstone Project Module 1
-Data Karyawan PT. Inovasi Sejahtera Abadi
------------------------------------------------------
-An apps that lets you manage your employee data. The feature that is provided in this apps are:
+**Introduction to the App**
 
-Melihat Data Karyawan
-Membuat Data Karyawan Baru
-Merubah Data Karyawan
-Menghapus Data karyawan
+This app lets you manage your employee data. The feature that is provided in this apps are:
+
+1. Melihat Data Karyawan
+2. Membuat Data Karyawan Baru
+3. Merubah Data Karyawan
+4. Menghapus Data karyawan
 
 Here is the screenshot of the main menu:
 
