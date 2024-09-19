@@ -28,8 +28,8 @@ def clear_screen():
 # Function to display message
 def show_message(message):
     print(f'\n{message}\n')
-       
-# Show all data on table
+      
+# Menu 1 - View
 # Bikin Tabular Frame
 kolom1, kolom2, kolom3, kolom4, kolom5 = 'EmployeeID', 'Name', 'Departement', 'Position', 'Status'
 LK = 20 # lebar kolom
@@ -60,7 +60,8 @@ def show_all_data():
     for i in range(len(EmployeeID)): # 0,1
         print(f'|{EmployeeID[i]}{' '*(LK-len(EmployeeID[i]))}|{Name[i]}{' '*(LK-len(Name[i]))}|{Departement[i]}{' '*(LK-len(Departement[i]))}|{Position[i]}{' '*(LK-len(Position[i]))}|{Status[i]}{' '*(LK-len(Status[i]))}|')
     table_end()
-    
+
+# Show Filter Data    
 def find_index():
     global list_index
     list_index.clear() #hapus hasil sebelumnya
@@ -80,7 +81,6 @@ def find_index():
     if len(list_index) == 0:
         show_message('Data tidak ditemukan')
     
-# Show Filter Data
 def show_filter_data():
     global list_index
     find_index()
