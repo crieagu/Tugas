@@ -1,4 +1,4 @@
-# Tugas
+# Capstone 1 - Data Karyawan - Readme
 Please, read this before before you continue to use the app or if you have any trouble running the app.
 
 This app is built upon Python v3.
